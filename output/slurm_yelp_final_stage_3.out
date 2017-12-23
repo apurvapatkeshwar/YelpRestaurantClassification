@@ -1,0 +1,125 @@
+Using TensorFlow backend.
+/share/apps/scikit-learn/0.18.1/intel/lib/python2.7/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+/share/apps/scikit-learn/0.18.1/intel/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in samples with no predicted labels.
+  'precision', 'predicted', average, warn_for)
+Creating train and test sets for blending.
+
+Data set 1
+['bvlc_reference_train_biz_features_mean.pkl', 'bvlc_reference_test_biz_features_mean.pkl']
+...fold 1 ... time passed: 81.4sec
+...fold 2 ... time passed: 78.3sec
+...fold 3 ... time passed: 80.8sec
+...fold 4 ... time passed: 77.1sec
+...fold 5 ... time passed: 78.5sec
+...fold 6 ... time passed: 84.6sec
+...fold 7 ... time passed: 77.9sec
+...fold 8 ... time passed: 85.7sec
+...fold 9 ... time passed: 78.2sec
+...fold 10 ... time passed: 79.9sec
+time passed: 804.6sec, F1 score: 0.8118
+
+Data set 2
+['bvlc_reference_train_biz_features_max.pkl', 'bvlc_reference_test_biz_features_max.pkl']
+...fold 1 ... time passed: 60.8sec
+...fold 2 ... time passed: 65.9sec
+...fold 3 ... time passed: 63.2sec
+...fold 4 ... time passed: 61.6sec
+...fold 5 ... time passed: 61.5sec
+...fold 6 ... time passed: 62.8sec
+...fold 7 ... time passed: 64.1sec
+...fold 8 ... time passed: 62.3sec
+...fold 9 ... time passed: 61.7sec
+...fold 10 ... time passed: 60.9sec
+time passed: 628.5sec, F1 score: 0.8096
+
+Data set 3
+['places205CNN_train_biz_features_mean.pkl', 'places205CNN_test_biz_features_mean.pkl']
+...fold 1 ... time passed: 102.0sec
+...fold 2 ... time passed: 104.8sec
+...fold 3 ... time passed: 106.4sec
+...fold 4 ... time passed: 98.7sec
+...fold 5 ... time passed: 97.0sec
+...fold 6 ... time passed: 102.8sec
+...fold 7 ... time passed: 99.8sec
+...fold 8 ... time passed: 101.7sec
+...fold 9 ... time passed: 103.0sec
+...fold 10 ... time passed: 98.6sec
+time passed: 1018.6sec, F1 score: 0.8097
+
+Data set 4
+['places205CNN_train_biz_features_max.pkl', 'places205CNN_test_biz_features_max.pkl']
+...fold 1 ... time passed: 63.9sec
+...fold 2 ... time passed: 64.1sec
+...fold 3 ... time passed: 65.8sec
+...fold 4 ... time passed: 65.4sec
+...fold 5 ... time passed: 64.7sec
+...fold 6 ... time passed: 66.1sec
+...fold 7 ... time passed: 63.2sec
+...fold 8 ... time passed: 63.7sec
+...fold 9 ... time passed: 65.2sec
+...fold 10 ... time passed: 63.8sec
+time passed: 649.3sec, F1 score: 0.8090
+
+Data set 5
+['hybridCNN_train_biz_features_mean.pkl', 'hybridCNN_test_biz_features_mean.pkl']
+...fold 1 ... time passed: 102.2sec
+...fold 2 ... time passed: 107.8sec
+...fold 3 ... time passed: 100.8sec
+...fold 4 ... time passed: 101.6sec
+...fold 5 ... time passed: 108.1sec
+...fold 6 ... time passed: 100.7sec
+...fold 7 ... time passed: 104.7sec
+...fold 8 ... time passed: 105.4sec
+...fold 9 ... time passed: 102.8sec
+...fold 10 ... time passed: 100.9sec
+time passed: 1038.4sec, F1 score: 0.8088
+
+Data set 6
+['hybridCNN_train_biz_features_max.pkl', 'hybridCNN_test_biz_features_max.pkl']
+...fold 1 ... time passed: 65.6sec
+...fold 2 ... time passed: 64.6sec
+...fold 3 ... time passed: 62.4sec
+...fold 4 ... time passed: 62.3sec
+...fold 5 ... time passed: 63.2sec
+...fold 6 ... time passed: 62.5sec
+...fold 7 ... time passed: 63.9sec
+...fold 8 ... time passed: 63.1sec
+...fold 9 ... time passed: 62.5sec
+...fold 10 ... time passed: 62.7sec
+time passed: 636.7sec, F1 score: 0.8117
+
+Data set 7
+['alexnet_train_biz_features_mean.pkl', 'alexnet_test_biz_features_mean.pkl']
+...fold 1 ... time passed: 74.6sec
+...fold 2 ... time passed: 73.4sec
+...fold 3 ... time passed: 78.0sec
+...fold 4 ... time passed: 78.4sec
+...fold 5 ... time passed: 77.5sec
+...fold 6 ... time passed: 75.7sec
+...fold 7 ... time passed: 77.0sec
+...fold 8 ... time passed: 78.6sec
+...fold 9 ... time passed: 79.2sec
+...fold 10 ... time passed: 74.9sec
+time passed: 771.0sec, F1 score: 0.8074
+
+Data set 8
+['alexnet_train_biz_features_max.pkl', 'alexnet_test_biz_features_max.pkl']
+...fold 1 ... time passed: 57.8sec
+...fold 2 ... time passed: 60.4sec
+...fold 3 ... time passed: 60.8sec
+...fold 4 ... time passed: 60.3sec
+...fold 5 ... time passed: 58.6sec
+...fold 6 ... time passed: 58.7sec
+...fold 7 ... time passed: 62.3sec
+...fold 8 ... time passed: 59.7sec
+...fold 9 ... time passed: 58.8sec
+...fold 10 ... time passed: 60.5sec
+time passed: 601.2sec, F1 score: 0.8085
+Average F1 score across all training sets: 0.8271
+
+Saving to feature file.
+
+Blending.
+
+Generating linear blend submission.
